@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context="com.cubepcr.cubepcr.ledControl">
+    <item android:id="@+id/action_settings"
+        android:icon="@drawable/ic_action_cancel"
+        android:title="@string/exit_button"
+        android:orderInCategory="101"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/about_app"
+        android:icon="@drawable/ic_action_about"
+        android:title="@string/about_bttn"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="100"
+        />
+</menu>

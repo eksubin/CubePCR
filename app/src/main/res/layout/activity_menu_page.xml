@@ -1,0 +1,66 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="200"
+    android:orientation="vertical"
+        android:background="@color/orange">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_weight="99"
+        android:orientation="horizontal"
+        android:onClick="click2"
+        android:background="@drawable/start_pcr_3"
+     />
+
+
+
+    <TextView
+        android:layout_width="330dp"
+        android:layout_height="3dp"
+        android:text=""
+        android:id="@+id/textView2"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="17dp"
+        android:background="@color/orange"
+        android:layout_weight="2"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_height="250dp"
+        android:weightSum="100"
+        android:orientation="horizontal"
+        android:layout_weight="99"
+        >
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="49"
+        android:onClick="click1"
+        android:background="@drawable/know_more"
+     >
+     </LinearLayout>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="250dp"
+        android:text=""
+        android:id="@+id/textView3"
+        android:layout_gravity="bottom"
+        android:layout_weight="2"
+        android:background="@color/orange"/>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="49"
+        android:onClick="click3"
+        android:background="@drawable/about">
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+

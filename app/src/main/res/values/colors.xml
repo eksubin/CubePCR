@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <resources>
+        <color name="lgreen">#8ED081</color>
+        <color name="lblue">#3F7CAC</color>
+        <color name="col">#B1B695</color>
+        <color name="dgreen">#69AD6A</color>
+        <color name="dblue">#284F6D</color>
+        <color name="dpink">#C44061</color>
+        <color name="white">#FFFFFF</color>
+    <color name="pink">#E34A6F</color>
+    <color name="orange">#FF9800</color>
+    <color name="dorange">#EF6C00</color>
+    <color name="llorange">#FFA726</color>
+    <color name="shadow">#9E9E9E</color>
+    </resources>

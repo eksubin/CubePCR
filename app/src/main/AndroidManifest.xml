@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cubepcr.cubepcr" >
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/cubeactivty_copy"
+        android:label="@string/app_name"
+        android:theme="@style/MyTheme.Base" >
+        <activity
+            android:name="com.cubepcr.cubepcr.MainActivity"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cubepcr.cubepcr.DeviceList"
+            android:label="Type the values" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cubepcr.cubepcr.ledControl"
+            android:label="Type values" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cubepcr.cubepcr.About_Page"
+            android:label="@string/title_activity_about__page" >
+        </activity>
+        <activity
+            android:name="com.cubepcr.cubepcr.menu_page"
+            android:label="@string/title_activity_menu_page" >
+        </activity>
+        <activity
+            android:name="com.cubepcr.cubepcr.Data"
+            android:label="@string/title_activity_data" >
+        </activity>
+        <activity
+            android:name="com.cubepcr.cubepcr.PCR_Timer"
+            android:label="@string/title_activity_pcr__timer" >
+        </activity>
+    </application>
+
+</manifest>

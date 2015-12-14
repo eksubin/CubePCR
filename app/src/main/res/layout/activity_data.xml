@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context="com.cubepcr.cubepcr.Data"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="135dp"
+              android:id="@+id/title"
+              android:background="@color/orange"
+              android:textColor="@color/white"
+              android:text="Polymerised Chain Reaction"
+              android:textStyle="bold"
+              android:textSize="25sp"
+              android:gravity="center"
+              />
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="15sp"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:layout_margin="3dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/tv"
+            android:layout_below="@+id/title"
+            android:text="The polymerase chain reaction (PCR) is a technology in molecular biology used to amplify a single copy or a few copies of a piece of DNA across several orders of magnitude, generating thousands to millions of copies of a particular DNA sequence.
+            \n\nDeveloped in 1983 by Kary Mullis, PCR is now a common and often indispensable technique used in medical and biological research labs for a variety of applications.These include DNA cloning for sequencing, DNA-based phylogeny, or functional analysis of genes; the diagnosis of hereditary diseases; the identification of genetic fingerprints (used in forensic sciences and paternity testing); and the detection and diagnosis of infectious diseases. In 1993, Mullis was awarded the Nobel Prize in Chemistry along with Michael Smith for his work on PCR.[5]
+            \n\nThe method relies on thermal cycling, consisting of cycles of repeated heating and cooling of the reaction for DNA melting and enzymatic replication of the DNA. Primers (short DNA fragments) containing sequences complementary to the target region along with a DNA polymerase, which the method is named after, are key components to enable selective and repeated amplification. As PCR progresses, the DNA generated is itself used as a template for replication, setting in motion a chain reaction in which the DNA template is exponentially amplified. \n\nPCR can be extensively modified to perform a wide array of genetic manipulations.
+            Almost all PCR applications employ a heat-stable DNA polymerase, such as Taq polymerase (an enzyme originally isolated from the bacterium Thermus aquaticus). This DNA polymerase enzymatically assembles a new DNA strand from DNA building-blocks, the nucleotides, by using single-stranded DNA as a template and DNA oligonucleotides (also called DNA primers), which are required for initiation of DNA synthesis. \n\nThe vast majority of PCR methods use thermal cycling, i.e., alternately heating and cooling the PCR sample through a defined series of temperature steps.
+            \nIn the first step, the two strands of the DNA double helix are physically separated at a high temperature in a process called DNA melting. In the second step, the temperature is lowered and the two DNA strands become templates for DNA polymerase to selectively amplify the target DNA. The selectivity of PCR results from the use of primers that are complementary to the DNA region targeted for amplification under specific thermal cycling conditions"
+        />
+    </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
